@@ -195,6 +195,9 @@ hr {
   .player{
     justify-content: center;
   }
+  hr{
+    width: 90%;
+  }
   /* bolg  */
   .blogs {
     grid-template-columns: repeat(1, 1fr);
