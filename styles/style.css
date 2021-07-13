@@ -72,7 +72,6 @@ nav {
   height: 51px;
 }
 
-
 /* ------------------------------------
 top playere section
 -------------------------------------- */
@@ -148,7 +147,7 @@ hr {
   border-radius: 5px;
 }
 .course > img {
-  width: 224px;
+  width: 100%;
   height: 104px;
   margin-bottom: 19px;
 }
@@ -178,4 +177,26 @@ hr {
   background-color: rgba(255, 99, 71, 0.466);
   padding: 2px 5px;
   border-radius: 15px;
+}
+
+/* -----------------------------------------------
+     responsive for all devices 
+  ------------------------------------------------ */
+
+@media (max-width: 800px) {
+  /* players  */
+  .players {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .player{
+    justify-content: center;
+  }
+  /* bolg  */
+  .blogs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* course  */
+  .courses {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
