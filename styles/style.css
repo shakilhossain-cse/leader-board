@@ -12,15 +12,9 @@
 body {
   background-color: #f3f1ff;
 }
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* ------------------------------------
-        top playere section
--------------------------------------- */
+/*---------------------------------
+        univercel style
+------------------------------------- */
 .top-players,
 .top-blogs,
 .latest-courses {
@@ -38,6 +32,56 @@ main {
   width: 870px;
   margin-top: 21px;
 }
+
+/* ------------------------------------
+        heaser section
+-------------------------------------- */
+
+header {
+  background-color: #562eff;
+  height: 94px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+nav {
+  width: 870px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  width: 40.42px;
+  height: 51px;
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+}
+.menu-item ul li {
+  display: inline;
+  margin-right: 36px;
+}
+.menu-item ul li a {
+  color: #ffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+.menr-item img {
+  width: 51px;
+  height: 51px;
+}
+
+
+/* ------------------------------------
+top playere section
+-------------------------------------- */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .players {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -100,7 +144,7 @@ hr {
 }
 .course {
   padding: 12px;
-  box-shadow:  0px 0px 1px 0px;
+  box-shadow: 0px 0px 1px 0px;
   border-radius: 5px;
 }
 .course > img {
@@ -109,30 +153,29 @@ hr {
   margin-bottom: 19px;
 }
 .course > p {
-    margin-top: 7px;
+  margin-top: 7px;
   color: #ed6b4f;
   font-size: 15px;
 }
-.course-info{
-    display: flex;
-    justify-content: space-between;
-    margin:10px 0;
+.course-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
 }
 .rating,
-.duration{
-    font-size: 12px;
+.duration {
+  font-size: 12px;
 }
-.fill{
-    cursor: pointer;
-    color: yellow;
+.fill {
+  cursor: pointer;
+  color: yellow;
 }
-.unfill{
-    cursor: pointer;
-    color: #ddd;
+.unfill {
+  cursor: pointer;
+  color: #ddd;
 }
-.duration{
-    background-color: rgba(255, 99, 71, 0.466);
-    padding: 2px 5px;
-    border-radius: 15px;
-   
+.duration {
+  background-color: rgba(255, 99, 71, 0.466);
+  padding: 2px 5px;
+  border-radius: 15px;
 }
