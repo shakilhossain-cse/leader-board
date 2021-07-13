@@ -193,11 +193,9 @@ hr {
   }
   /* players  */
   .players {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
-  .player{
-    justify-content: center;
-  }
+
   hr{
     width: 90%;
   }
@@ -212,13 +210,19 @@ hr {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   nav {
     width: 95%;
+  }
+  .players {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .player{
+    justify-content: center;
   }
   /* course  */
   .courses {
     grid-template-columns: repeat(1, 1fr);
-    max-width: 425px;
+    max-width: 500px;
   }
 }
