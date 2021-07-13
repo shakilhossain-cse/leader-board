@@ -45,7 +45,7 @@ header {
   justify-content: center;
 }
 nav {
-  width: 870px;
+  width: 57%;
   display: flex;
   justify-content: space-between;
   align-items: center;
